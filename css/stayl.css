@@ -10,3 +10,8 @@
     background-image: url("../img/beverage-1869598_1920.jpg");
     height: 100vh;
 }
+
+.btn-primary {
+    background: grey;
+    border-color: black;
+}
