@@ -1,9 +1,9 @@
 body {
-    background-color: #444444;
-    .h1 {
-        color: whitesmoke;
+    background-color: $maincolor;
+    .titulo {
+        color: $secondarycolor;
     }
-    .p {
-        color: whitesmoke;
+    .texto {
+        color: $secondarycolor;
     }
 }

@@ -4,9 +4,15 @@
     // animation-delay: 1s;
 }
 
-@for $pic from 1 through 6 {
+@for $pic from 1 through 3 {
     .pic:nth-child(#{$pic}) {
         animation-delay: $pic*0.5s;
+    }
+}
+
+@for $pic from 3 through 6 {
+    .pic:nth-child(#{$pic}) {
+        animation-delay: $pic*1s;
     }
 }
 

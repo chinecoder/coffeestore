@@ -4,6 +4,6 @@
     box-sizing: border-box;
     font-family: $figtree;
     &::selection {
-        background-color: lightblue;
+        background-color: $thirdcolor;
     }
 }

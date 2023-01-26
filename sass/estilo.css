@@ -15,10 +15,10 @@
 body {
   background-color: #444444;
 }
-body .h1 {
+body .titulo {
   color: whitesmoke;
 }
-body .p {
+body .texto {
   color: whitesmoke;
 }
 
@@ -33,12 +33,13 @@ body .p {
   background: lightblue;
 }
 .hero h2 {
-  color: black;
+  color: #444444;
 }
 
 .cards:hover {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transform: scale(1.1) translateY(-30px);
+  transition: all 1s;
 }
 
 .item:hover {
@@ -67,19 +68,24 @@ body .p {
           animation-delay: 1.5s;
 }
 
+.pic:nth-child(3) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
 .pic:nth-child(4) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .pic:nth-child(5) {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 .pic:nth-child(6) {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 @-webkit-keyframes tilt-in-fwd-tr {
