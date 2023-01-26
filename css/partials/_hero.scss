@@ -1,0 +1,10 @@
+.hero {
+    background-image: url("../img/beverage-1869598_1920.jpg");
+    height: 100vh;
+    .hero h2::selection {
+        background: lightblue;
+    }
+    h2 {
+        color: black;
+    }
+}
