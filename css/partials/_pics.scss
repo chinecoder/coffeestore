@@ -1,18 +1,14 @@
 .pic {
     -webkit-animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
     animation: tilt-in-fwd-tr .6s cubic-bezier(.25, .46, .45, .94) both;
-    // animation-delay: 1s;
-}
-
-@for $pic from 1 through 3 {
-    .pic:nth-child(#{$pic}) {
-        animation-delay: $pic*0.5s;
+    .pic1 {
+        animation-delay: 1s;
     }
-}
-
-@for $pic from 3 through 6 {
-    .pic:nth-child(#{$pic}) {
-        animation-delay: $pic*1s;
+    .pic2 {
+        animation-delay: 2s;
+    }
+    .pic3 {
+        animation-delay: 3s;
     }
 }
 
